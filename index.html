@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feminina Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #222;
+        }
+
+        .subcabecalho {
+            background: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            font-size: 14px;
+            padding: 6px 0;
+        }
+
+        header {
+            background: #e0a8a8;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 50px;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #4a1d1d;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav ul li {
+            font-size: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #222;
+            font-weight: bold;
+        }
+
+        nav ul li a.active {
+            color: #8b2f2f;
+            border-bottom: 2px solid #8b2f2f;
+            padding-bottom: 3px;
+        }
+
+        .hero {
+            background: #e8e8ed;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            padding: 60px 100px;
+        }
+
+        .hero-text {
+            max-width: 500px;
+        }
+
+        .hero-text h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .hero-text p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .hero-text .btn {
+            background: #8b2f2f;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .hero-text .btn:hover {
+            background: #5c1f1f;
+        }
+
+        .hero img {
+            width: 380px;
+            border-radius: 10px;
+        }
+
+        .features {
+            background: #111;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+            padding: 30px 0;
+        }
+
+        .feature {
+            text-align: center;
+            max-width: 200px;
+        }
+
+        .feature img {
+            width: 35px;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="subcabecalho">
+        Não perca as ofertas! Promoções imperdíveis no site!
+    </div>
+
+    <header>
+        <div class="logo">Feminina Store</div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Nova Coleção Disponível</h1>
+            <p>Vista-se com confiança e estilo com nossas peças exclusivas.  
+            Sua moda, sua expressão.</p>
+            <button class="btn">Ver Produtos</button>
+        </div>
+        <img src="1600w-nK1GVqPTOGA.webp" alt="Modelo com roupa">
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <img src="https://cdn-icons-png.flaticon.com/512/833/833547.png" alt="Pagamento">
+            <p>Pagamento seguro</p>
+        </div>
+        <div class="feature">
+            <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="Troca">
+            <p>Troca e devolução simples</p>
+        </div>
+        <div class="feature">
+            <img src="https://cdn-icons-png.flaticon.com/512/471/471713.png" alt="Atendimento">
+            <p>Atendimento eficiente</p>
+        </div>
+        <div class="feature">
+            <img src="https://cdn-icons-png.flaticon.com/512/859/859270.png" alt="Frete grátis">
+            <p>Frete grátis</p>
+        </div>
+    </section>
+
+</body>
+</html>
